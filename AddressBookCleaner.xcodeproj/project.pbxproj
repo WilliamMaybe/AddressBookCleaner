@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC912B981E20D345008E233A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC912B971E20D345008E233A /* AppDelegate.swift */; };
+		AC912B9A1E20D345008E233A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC912B991E20D345008E233A /* ViewController.swift */; };
+		AC912B9D1E20D345008E233A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC912B9B1E20D345008E233A /* Main.storyboard */; };
+		AC912B9F1E20D345008E233A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC912B9E1E20D345008E233A /* Assets.xcassets */; };
+		AC912BA21E20D345008E233A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC912BA01E20D345008E233A /* LaunchScreen.storyboard */; };
+		AC912BAD1E20D345008E233A /* AddressBookCleanerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC912BAC1E20D345008E233A /* AddressBookCleanerTests.swift */; };
+		AC912BB81E20D345008E233A /* AddressBookCleanerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC912BB71E20D345008E233A /* AddressBookCleanerUITests.swift */; };
+		AC912BC61E20D470008E233A /* AddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC912BC51E20D470008E233A /* AddressManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC912BA91E20D345008E233A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC912B8C1E20D345008E233A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC912B931E20D345008E233A;
+			remoteInfo = AddressBookCleaner;
+		};
+		AC912BB41E20D345008E233A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC912B8C1E20D345008E233A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC912B931E20D345008E233A;
+			remoteInfo = AddressBookCleaner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC912B941E20D345008E233A /* AddressBookCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBookCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC912B971E20D345008E233A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC912B991E20D345008E233A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC912B9C1E20D345008E233A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC912B9E1E20D345008E233A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC912BA11E20D345008E233A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC912BA31E20D345008E233A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC912BA81E20D345008E233A /* AddressBookCleanerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookCleanerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC912BAC1E20D345008E233A /* AddressBookCleanerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookCleanerTests.swift; sourceTree = "<group>"; };
+		AC912BAE1E20D345008E233A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC912BB31E20D345008E233A /* AddressBookCleanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookCleanerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC912BB71E20D345008E233A /* AddressBookCleanerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookCleanerUITests.swift; sourceTree = "<group>"; };
+		AC912BB91E20D345008E233A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC912BC51E20D470008E233A /* AddressManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC912B911E20D345008E233A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC912BA51E20D345008E233A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC912BB01E20D345008E233A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC912B8B1E20D345008E233A = {
+			isa = PBXGroup;
+			children = (
+				AC912B961E20D345008E233A /* AddressBookCleaner */,
+				AC912BAB1E20D345008E233A /* AddressBookCleanerTests */,
+				AC912BB61E20D345008E233A /* AddressBookCleanerUITests */,
+				AC912B951E20D345008E233A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC912B951E20D345008E233A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC912B941E20D345008E233A /* AddressBookCleaner.app */,
+				AC912BA81E20D345008E233A /* AddressBookCleanerTests.xctest */,
+				AC912BB31E20D345008E233A /* AddressBookCleanerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC912B961E20D345008E233A /* AddressBookCleaner */ = {
+			isa = PBXGroup;
+			children = (
+				AC912B971E20D345008E233A /* AppDelegate.swift */,
+				AC912B991E20D345008E233A /* ViewController.swift */,
+				AC912BC51E20D470008E233A /* AddressManager.swift */,
+				AC912B9B1E20D345008E233A /* Main.storyboard */,
+				AC912B9E1E20D345008E233A /* Assets.xcassets */,
+				AC912BA01E20D345008E233A /* LaunchScreen.storyboard */,
+				AC912BA31E20D345008E233A /* Info.plist */,
+			);
+			path = AddressBookCleaner;
+			sourceTree = "<group>";
+		};
+		AC912BAB1E20D345008E233A /* AddressBookCleanerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC912BAC1E20D345008E233A /* AddressBookCleanerTests.swift */,
+				AC912BAE1E20D345008E233A /* Info.plist */,
+			);
+			path = AddressBookCleanerTests;
+			sourceTree = "<group>";
+		};
+		AC912BB61E20D345008E233A /* AddressBookCleanerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC912BB71E20D345008E233A /* AddressBookCleanerUITests.swift */,
+				AC912BB91E20D345008E233A /* Info.plist */,
+			);
+			path = AddressBookCleanerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC912B931E20D345008E233A /* AddressBookCleaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC912BBC1E20D345008E233A /* Build configuration list for PBXNativeTarget "AddressBookCleaner" */;
+			buildPhases = (
+				AC912B901E20D345008E233A /* Sources */,
+				AC912B911E20D345008E233A /* Frameworks */,
+				AC912B921E20D345008E233A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBookCleaner;
+			productName = AddressBookCleaner;
+			productReference = AC912B941E20D345008E233A /* AddressBookCleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC912BA71E20D345008E233A /* AddressBookCleanerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC912BBF1E20D345008E233A /* Build configuration list for PBXNativeTarget "AddressBookCleanerTests" */;
+			buildPhases = (
+				AC912BA41E20D345008E233A /* Sources */,
+				AC912BA51E20D345008E233A /* Frameworks */,
+				AC912BA61E20D345008E233A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC912BAA1E20D345008E233A /* PBXTargetDependency */,
+			);
+			name = AddressBookCleanerTests;
+			productName = AddressBookCleanerTests;
+			productReference = AC912BA81E20D345008E233A /* AddressBookCleanerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC912BB21E20D345008E233A /* AddressBookCleanerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC912BC21E20D345008E233A /* Build configuration list for PBXNativeTarget "AddressBookCleanerUITests" */;
+			buildPhases = (
+				AC912BAF1E20D345008E233A /* Sources */,
+				AC912BB01E20D345008E233A /* Frameworks */,
+				AC912BB11E20D345008E233A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC912BB51E20D345008E233A /* PBXTargetDependency */,
+			);
+			name = AddressBookCleanerUITests;
+			productName = AddressBookCleanerUITests;
+			productReference = AC912BB31E20D345008E233A /* AddressBookCleanerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC912B8C1E20D345008E233A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Maybe Zh";
+				TargetAttributes = {
+					AC912B931E20D345008E233A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AMXK7K2U63;
+						ProvisioningStyle = Automatic;
+					};
+					AC912BA71E20D345008E233A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC912B931E20D345008E233A;
+					};
+					AC912BB21E20D345008E233A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC912B931E20D345008E233A;
+					};
+				};
+			};
+			buildConfigurationList = AC912B8F1E20D345008E233A /* Build configuration list for PBXProject "AddressBookCleaner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC912B8B1E20D345008E233A;
+			productRefGroup = AC912B951E20D345008E233A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC912B931E20D345008E233A /* AddressBookCleaner */,
+				AC912BA71E20D345008E233A /* AddressBookCleanerTests */,
+				AC912BB21E20D345008E233A /* AddressBookCleanerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC912B921E20D345008E233A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC912BA21E20D345008E233A /* LaunchScreen.storyboard in Resources */,
+				AC912B9F1E20D345008E233A /* Assets.xcassets in Resources */,
+				AC912B9D1E20D345008E233A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC912BA61E20D345008E233A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC912BB11E20D345008E233A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC912B901E20D345008E233A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC912BC61E20D470008E233A /* AddressManager.swift in Sources */,
+				AC912B9A1E20D345008E233A /* ViewController.swift in Sources */,
+				AC912B981E20D345008E233A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC912BA41E20D345008E233A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC912BAD1E20D345008E233A /* AddressBookCleanerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC912BAF1E20D345008E233A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC912BB81E20D345008E233A /* AddressBookCleanerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC912BAA1E20D345008E233A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC912B931E20D345008E233A /* AddressBookCleaner */;
+			targetProxy = AC912BA91E20D345008E233A /* PBXContainerItemProxy */;
+		};
+		AC912BB51E20D345008E233A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC912B931E20D345008E233A /* AddressBookCleaner */;
+			targetProxy = AC912BB41E20D345008E233A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC912B9B1E20D345008E233A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC912B9C1E20D345008E233A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC912BA01E20D345008E233A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC912BA11E20D345008E233A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC912BBA1E20D345008E233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC912BBB1E20D345008E233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC912BBD1E20D345008E233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AMXK7K2U63;
+				INFOPLIST_FILE = AddressBookCleaner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.money.AddressBookCleaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC912BBE1E20D345008E233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AMXK7K2U63;
+				INFOPLIST_FILE = AddressBookCleaner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.money.AddressBookCleaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC912BC01E20D345008E233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressBookCleanerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.money.AddressBookCleanerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBookCleaner.app/AddressBookCleaner";
+			};
+			name = Debug;
+		};
+		AC912BC11E20D345008E233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressBookCleanerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.money.AddressBookCleanerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBookCleaner.app/AddressBookCleaner";
+			};
+			name = Release;
+		};
+		AC912BC31E20D345008E233A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AddressBookCleanerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.money.AddressBookCleanerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AddressBookCleaner;
+			};
+			name = Debug;
+		};
+		AC912BC41E20D345008E233A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AddressBookCleanerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.money.AddressBookCleanerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AddressBookCleaner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC912B8F1E20D345008E233A /* Build configuration list for PBXProject "AddressBookCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC912BBA1E20D345008E233A /* Debug */,
+				AC912BBB1E20D345008E233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC912BBC1E20D345008E233A /* Build configuration list for PBXNativeTarget "AddressBookCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC912BBD1E20D345008E233A /* Debug */,
+				AC912BBE1E20D345008E233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC912BBF1E20D345008E233A /* Build configuration list for PBXNativeTarget "AddressBookCleanerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC912BC01E20D345008E233A /* Debug */,
+				AC912BC11E20D345008E233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC912BC21E20D345008E233A /* Build configuration list for PBXNativeTarget "AddressBookCleanerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC912BC31E20D345008E233A /* Debug */,
+				AC912BC41E20D345008E233A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC912B8C1E20D345008E233A /* Project object */;
+}
