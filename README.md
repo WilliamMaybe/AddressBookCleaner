@@ -1,9 +1,9 @@
 # AddressBookCleaner
 突然发现联系人的好多好多人，而且自带的竟然不支持批量删除！！！
 什么鬼！！！动手写个简单版的吧
-##UIContact
+## UIContact
 iOS9之后出现的库，之前使用的是AddressBook
-###请求通讯录权限，生成相应参数
+### 请求通讯录权限，生成相应参数
 ```
 fileprivate func requestAuthority() {
         guard CNContactStore.authorizationStatus(for: .contacts) != .notDetermined else {
@@ -19,7 +19,7 @@ fileprivate func requestAuthority() {
         })
     }
 ```
-###获取所有联系人列表
+### 获取所有联系人列表
 权限通过之后，就可以获取联系人啦，在这里呢，`CNContactStore`提供了2个接口
 
 `
@@ -62,7 +62,7 @@ fileprivate func keysToFetch() -> [CNKeyDescriptor] {
     }
 ```
 *`获取列表接口会耗费一定的时间，需要放到分线程`*
-###删除联系人
+### 删除联系人
 系统专门提供了一个`CNSaveRequest`的类，来进行增删改查的一系列操作
 `open func add(_ contact: CNMutableContact, toContainerWithIdentifier identifier: String?)`  
 
@@ -79,4 +79,4 @@ func delete(contacts: [CNContact]?) {
         try? contactStore.execute(saveRequest)
     }
 ```
-##打完收工，可以开开心心的删除通讯录的多余了😁
+## 打完收工，可以开开心心的删除通讯录的多余了😁
